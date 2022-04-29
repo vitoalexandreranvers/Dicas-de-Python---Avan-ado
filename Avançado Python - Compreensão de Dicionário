@@ -1,0 +1,16 @@
+
+
+•	COMPREENSÃO DE DICIONÁRIO
+	
+	Assim como a compreensão de listas, dicionários também suportam sua própria versão para criação rápida. Não é tão comum como a compreensão de listas, mas a sintaxe é:
+{x:x**2 for x in range(10)}
+
+	Uma das razões pelas quais não é tão comum é a dificuldade em estruturar os nomes das chaves que não se baseiam nos valores.
+Vamos ver outro exemplo:
+P=’python’
+{p.index(x):x for x in p }
+
+	Ótimo agora você já sabe como trabalhar com compreensões de dicionários.
+
+Exercícios
+1 – usando compreensão de dicionários, crie um dicionário que suas chaves serão índices de 0 a 30  seus valores o índice multiplicado por ele mesmo.
